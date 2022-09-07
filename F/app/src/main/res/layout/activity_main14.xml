@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC43C"
+    tools:context=".MainActivity14">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-21dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="464dp"
+        app:srcCompat="@drawable/muy" />
+
+    <EditText
+        android:id="@+id/h232"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="377dp"
+        android:ems="10"
+        android:hint="معدل السكر"
+        android:inputType="textPersonName"
+        android:textColorHint="#605B5B" />
+
+    <Button
+        android:id="@+id/H2"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="220dp"
+        android:background="#FFB500"
+        android:backgroundTint="#FFB500"
+        android:text="النتيجة"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/H3"
+        android:layout_width="179dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="313dp"
+        android:layout_marginEnd="67dp"
+        android:textColor="#843D36"
+        android:textSize="20dp" />
+</RelativeLayout>
